@@ -1,0 +1,353 @@
+{
+    "members": [
+        {
+            "name": "basty1896",
+            "proPos": "16",
+            "gamesPlayed": "69",
+            "goals": "23",
+            "assists": "32",
+            "manOfTheMatch": "4",
+            "ratingAve": "7.4",
+            "favoritePosition": "midfielder"
+        },
+        {
+            "name": "Festivalhopper86",
+            "proPos": "22",
+            "gamesPlayed": "395",
+            "goals": "511",
+            "assists": "231",
+            "manOfTheMatch": "97",
+            "ratingAve": "7.9",
+            "favoritePosition": "forward"
+        },
+        {
+            "name": "gambler_BILLY",
+            "proPos": "18",
+            "gamesPlayed": "164",
+            "goals": "93",
+            "assists": "106",
+            "manOfTheMatch": "29",
+            "ratingAve": "7.4",
+            "favoritePosition": "midfielder"
+        },
+        {
+            "name": "Agroninho",
+            "proPos": "2",
+            "gamesPlayed": "224",
+            "goals": "23",
+            "assists": "27",
+            "manOfTheMatch": "5",
+            "ratingAve": "7.3",
+            "favoritePosition": "defender"
+        },
+        {
+            "name": "matze_x96",
+            "proPos": "3",
+            "gamesPlayed": "53",
+            "goals": "21",
+            "assists": "23",
+            "manOfTheMatch": "8",
+            "ratingAve": "7.2",
+            "favoritePosition": "defender"
+        },
+        {
+            "name": "JiGiDiJaCkSoN",
+            "proPos": "8",
+            "gamesPlayed": "67",
+            "goals": "1",
+            "assists": "2",
+            "manOfTheMatch": "0",
+            "ratingAve": "6.5",
+            "favoritePosition": "defender"
+        },
+        {
+            "name": "TheWall1909",
+            "proPos": "0",
+            "gamesPlayed": "284",
+            "goals": "10",
+            "assists": "2",
+            "manOfTheMatch": "5",
+            "ratingAve": "6.8",
+            "favoritePosition": "goalkeeper"
+        },
+        {
+            "name": "KateCoogi88",
+            "proPos": "23",
+            "gamesPlayed": "5",
+            "goals": "0",
+            "assists": "0",
+            "manOfTheMatch": "0",
+            "ratingAve": "6.3",
+            "favoritePosition": "forward"
+        },
+        {
+            "name": "Elias201386",
+            "proPos": "23",
+            "gamesPlayed": "242",
+            "goals": "68",
+            "assists": "123",
+            "manOfTheMatch": "12",
+            "ratingAve": "7.4",
+            "favoritePosition": "forward"
+        },
+        {
+            "name": "Skystreet7",
+            "proPos": "10",
+            "gamesPlayed": "22",
+            "goals": "0",
+            "assists": "0",
+            "manOfTheMatch": "0",
+            "ratingAve": "6.2",
+            "favoritePosition": "midfielder"
+        },
+        {
+            "name": "xFlexiii_",
+            "proPos": "22",
+            "gamesPlayed": "207",
+            "goals": "121",
+            "assists": "92",
+            "manOfTheMatch": "48",
+            "ratingAve": "7.4",
+            "favoritePosition": "forward"
+        },
+        {
+            "name": "POLDI8709",
+            "proPos": "21",
+            "gamesPlayed": "2782",
+            "goals": "2749",
+            "assists": "1541",
+            "manOfTheMatch": "608",
+            "ratingAve": "8.0",
+            "favoritePosition": "forward"
+        },
+        {
+            "name": "Marsl_1997",
+            "proPos": "7",
+            "gamesPlayed": "65",
+            "goals": "3",
+            "assists": "5",
+            "manOfTheMatch": "1",
+            "ratingAve": "6.8",
+            "favoritePosition": "defender"
+        },
+        {
+            "name": "Elber-power",
+            "proPos": "8",
+            "gamesPlayed": "555",
+            "goals": "236",
+            "assists": "185",
+            "manOfTheMatch": "56",
+            "ratingAve": "7.3",
+            "favoritePosition": "defender"
+        },
+        {
+            "name": "king_tiger1987",
+            "proPos": "14",
+            "gamesPlayed": "422",
+            "goals": "65",
+            "assists": "62",
+            "manOfTheMatch": "24",
+            "ratingAve": "7.2",
+            "favoritePosition": "midfielder"
+        },
+        {
+            "name": "Sw_Niro_25",
+            "proPos": "8",
+            "gamesPlayed": "183",
+            "goals": "6",
+            "assists": "20",
+            "manOfTheMatch": "4",
+            "ratingAve": "7.0",
+            "favoritePosition": "defender"
+        },
+        {
+            "name": "Al-Koholiker1909",
+            "proPos": "0",
+            "gamesPlayed": "76",
+            "goals": "5",
+            "assists": "5",
+            "manOfTheMatch": "3",
+            "ratingAve": "6.7",
+            "favoritePosition": "goalkeeper"
+        }
+    ],
+    "positionCount": {
+        "midfielder": 4,
+        "goalkeeper": 2,
+        "forward": 5,
+        "defender": 6
+    },
+    "path": "/api/fifa/members/career/stats?platform=ps4&clubId=20616984&clubIds=20616984",
+    "r": [
+        {
+            "name": "basty1896",
+            "proPos": "16",
+            "gamesPlayed": "69",
+            "goals": "23",
+            "assists": "32",
+            "manOfTheMatch": "4",
+            "ratingAve": "7.4",
+            "favoritePosition": "midfielder"
+        },
+        {
+            "name": "Festivalhopper86",
+            "proPos": "22",
+            "gamesPlayed": "395",
+            "goals": "511",
+            "assists": "231",
+            "manOfTheMatch": "97",
+            "ratingAve": "7.9",
+            "favoritePosition": "forward"
+        },
+        {
+            "name": "gambler_BILLY",
+            "proPos": "18",
+            "gamesPlayed": "164",
+            "goals": "93",
+            "assists": "106",
+            "manOfTheMatch": "29",
+            "ratingAve": "7.4",
+            "favoritePosition": "midfielder"
+        },
+        {
+            "name": "Agroninho",
+            "proPos": "2",
+            "gamesPlayed": "224",
+            "goals": "23",
+            "assists": "27",
+            "manOfTheMatch": "5",
+            "ratingAve": "7.3",
+            "favoritePosition": "defender"
+        },
+        {
+            "name": "matze_x96",
+            "proPos": "3",
+            "gamesPlayed": "53",
+            "goals": "21",
+            "assists": "23",
+            "manOfTheMatch": "8",
+            "ratingAve": "7.2",
+            "favoritePosition": "defender"
+        },
+        {
+            "name": "JiGiDiJaCkSoN",
+            "proPos": "8",
+            "gamesPlayed": "67",
+            "goals": "1",
+            "assists": "2",
+            "manOfTheMatch": "0",
+            "ratingAve": "6.5",
+            "favoritePosition": "defender"
+        },
+        {
+            "name": "TheWall1909",
+            "proPos": "0",
+            "gamesPlayed": "284",
+            "goals": "10",
+            "assists": "2",
+            "manOfTheMatch": "5",
+            "ratingAve": "6.8",
+            "favoritePosition": "goalkeeper"
+        },
+        {
+            "name": "KateCoogi88",
+            "proPos": "23",
+            "gamesPlayed": "5",
+            "goals": "0",
+            "assists": "0",
+            "manOfTheMatch": "0",
+            "ratingAve": "6.3",
+            "favoritePosition": "forward"
+        },
+        {
+            "name": "Elias201386",
+            "proPos": "23",
+            "gamesPlayed": "242",
+            "goals": "68",
+            "assists": "123",
+            "manOfTheMatch": "12",
+            "ratingAve": "7.4",
+            "favoritePosition": "forward"
+        },
+        {
+            "name": "Skystreet7",
+            "proPos": "10",
+            "gamesPlayed": "22",
+            "goals": "0",
+            "assists": "0",
+            "manOfTheMatch": "0",
+            "ratingAve": "6.2",
+            "favoritePosition": "midfielder"
+        },
+        {
+            "name": "xFlexiii_",
+            "proPos": "22",
+            "gamesPlayed": "207",
+            "goals": "121",
+            "assists": "92",
+            "manOfTheMatch": "48",
+            "ratingAve": "7.4",
+            "favoritePosition": "forward"
+        },
+        {
+            "name": "POLDI8709",
+            "proPos": "21",
+            "gamesPlayed": "2782",
+            "goals": "2749",
+            "assists": "1541",
+            "manOfTheMatch": "608",
+            "ratingAve": "8.0",
+            "favoritePosition": "forward"
+        },
+        {
+            "name": "Marsl_1997",
+            "proPos": "7",
+            "gamesPlayed": "65",
+            "goals": "3",
+            "assists": "5",
+            "manOfTheMatch": "1",
+            "ratingAve": "6.8",
+            "favoritePosition": "defender"
+        },
+        {
+            "name": "Elber-power",
+            "proPos": "8",
+            "gamesPlayed": "555",
+            "goals": "236",
+            "assists": "185",
+            "manOfTheMatch": "56",
+            "ratingAve": "7.3",
+            "favoritePosition": "defender"
+        },
+        {
+            "name": "king_tiger1987",
+            "proPos": "14",
+            "gamesPlayed": "422",
+            "goals": "65",
+            "assists": "62",
+            "manOfTheMatch": "24",
+            "ratingAve": "7.2",
+            "favoritePosition": "midfielder"
+        },
+        {
+            "name": "Sw_Niro_25",
+            "proPos": "8",
+            "gamesPlayed": "183",
+            "goals": "6",
+            "assists": "20",
+            "manOfTheMatch": "4",
+            "ratingAve": "7.0",
+            "favoritePosition": "defender"
+        },
+        {
+            "name": "Al-Koholiker1909",
+            "proPos": "0",
+            "gamesPlayed": "76",
+            "goals": "5",
+            "assists": "5",
+            "manOfTheMatch": "3",
+            "ratingAve": "6.7",
+            "favoritePosition": "goalkeeper"
+        }
+    ]
+}

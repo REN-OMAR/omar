@@ -1,0 +1,49 @@
+{
+    "20616984": {
+        "name": "Blood Brotherz",
+        "clubId": 20616984,
+        "regionId": 5719381,
+        "teamId": 21,
+        "customKit": {
+            "stadName": "Hexenkessel",
+            "kitId": "344064",
+            "isCustomTeam": "1",
+            "customKitId": "7616",
+            "customAwayKitId": "7636",
+            "customKeeperKitId": "5020",
+            "kitColor1": "0",
+            "kitColor2": "9572147",
+            "kitColor3": "16777215",
+            "kitAColor1": "16777215",
+            "kitAColor2": "9572147",
+            "kitAColor3": "0",
+            "dCustomKit": "1",
+            "crestColor": "13179675",
+            "crestAssetId": "99130506"
+        }
+    },
+    "path": "/api/fifa/clubs/info?platform=ps4&clubId=20616984&clubIds=20616984",
+    "r": {
+        "name": "Blood Brotherz",
+        "clubId": 20616984,
+        "regionId": 5719381,
+        "teamId": 21,
+        "customKit": {
+            "stadName": "Hexenkessel",
+            "kitId": "344064",
+            "isCustomTeam": "1",
+            "customKitId": "7616",
+            "customAwayKitId": "7636",
+            "customKeeperKitId": "5020",
+            "kitColor1": "0",
+            "kitColor2": "9572147",
+            "kitColor3": "16777215",
+            "kitAColor1": "16777215",
+            "kitAColor2": "9572147",
+            "kitAColor3": "0",
+            "dCustomKit": "1",
+            "crestColor": "13179675",
+            "crestAssetId": "99130506"
+        }
+    }
+}

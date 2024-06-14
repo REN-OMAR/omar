@@ -1,0 +1,36 @@
+{
+	"compilerOptions": {
+		"experimentalDecorators": true,
+		"outDir": "./dist",
+		"module": "commonjs",
+		"target": "es6",
+		"lib": [
+			"esnext",
+			"ESNext.AsyncIterable"
+		],
+		"alwaysStrict": true,
+		"strict": true,
+		"preserveConstEnums": true,
+		"moduleResolution": "node",
+		"declaration": true,
+		/* Generates corresponding '.d.ts' file. */
+		"declarationMap": true,
+		/* Generates a sourcemap for each corresponding '.d.ts' file. */
+		"sourceMap": true,
+		/* Generates corresponding '.map' file. */
+		"esModuleInterop": true,
+		"emitDecoratorMetadata": true
+	},
+	"include": [
+		"src"
+	]
+	//   "include": [
+	//     "./src/*.ts",
+	//     "./test/*.ts",
+	//     "./src/**/*.ts",
+	//     "./test/**/*.ts",
+	// 	"./node_modules/@cloudflare/workers-types/index.d.ts",
+	// 	"./node_modules/@types"
+	//   ],
+	//   "exclude": ["node_modules/", "dist/"]
+}

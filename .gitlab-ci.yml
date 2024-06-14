@@ -1,0 +1,147 @@
+image: node:latest
+
+pages:
+  stage: deploy
+  script:
+  - npm install
+  - npx typedoc $(find 'src' -type f -name '*.ts' -not -name '*.test.ts' -printf "%p ") --out docs || true
+  - cp -r docs public
+  - cp public/index.html public/404.html
+  # # - ls -lah build
+  # - rm -rf public
+  # - mv build public/
+  - echo "$CI_COMMIT_SHA" >> public/CI_COMMIT_SHA
+  - echo "$(git rev-list --count HEAD)" >> public/CI_COMMIT_COUNT
+
+  artifacts:
+    paths:
+    - public
+
+  only:
+    - main
+
+
+# test:13.13.0-buster-slim:
+#   image: billigsteruser/node-cross:13.13.0-buster-slim
+#   cache:
+#     paths:
+#       - node_modules/
+#   script:
+#     - npm run showVersion
+# # && sysctl -w kernel.unprivileged_userns_clone=1
+#     - npm install
+#     - groupadd -r pptruser && useradd -r -g pptruser -G audio,video pptruser && mkdir -p pptruser/Downloads && chown -R pptruser:pptruser pptruser && chown -R pptruser:pptruser node_modules
+#     - npx jest --maxWorkers=1
+#     - npx tsc
+
+
+# test:edge-buster-slim:
+#   image: node:15.4.0-buster-slim
+# #   cache:
+# #     paths:
+# #       - node_modules/
+#   script:
+#     - npm install
+#     - npm run showVersion
+#     - groupadd -r pptruser && useradd -r -g pptruser -G audio,video pptruser && mkdir -p pptruser/Downloads && chown -R pptruser:pptruser pptruser && chown -R pptruser:pptruser node_modules
+#     - npx jest --maxWorkers=1
+#     - npx tsc
+
+
+# test:edge-stretch-slim:
+#   image: billigsteruser/node-cross:edge-stretch-slim
+#   cache:
+#     paths:
+#       - node_modules/
+#   script:
+#     - npm install
+#     - npm run showVersion
+#     - groupadd -r pptruser && useradd -r -g pptruser -G audio,video pptruser && mkdir -p pptruser/Downloads && chown -R pptruser:pptruser pptruser && chown -R pptruser:pptruser node_modules
+#     - npx jest --maxWorkers=1
+#     - npx tsc
+
+
+# test:edge-alpine3.12:
+#   image: node:15.4.0-alpine3.12
+# #   cache:
+# #     paths:
+# #       - node_modules/
+#   script:
+#     - npm install
+#     - npm run showVersion
+#     - groupadd -r pptruser && useradd -r -g pptruser -G audio,video pptruser && mkdir -p pptruser/Downloads && chown -R pptruser:pptruser pptruser && chown -R pptruser:pptruser node_modules
+#     - npx jest --maxWorkers=1
+#     - npx tsc
+
+
+test:edge-buster-slim:
+  image: node:lts
+#   cache:
+#     paths:
+#       - node_modules/
+  script:
+    - npm install
+    - npm run test
+    - npx tsc
+
+
+# test:edge-stretch-slim:
+#   image: billigsteruser/node-cross:edge-stretch-slim
+#   cache:
+#     paths:
+#       - node_modules/
+#   script:
+#     - npm install
+#     - npm run showVersion
+#     - groupadd -r pptruser && useradd -r -g pptruser -G audio,video pptruser && mkdir -p pptruser/Downloads && chown -R pptruser:pptruser pptruser && chown -R pptruser:pptruser node_modules
+#     - npx jest --maxWorkers=1
+#     - npx tsc
+
+
+# test:edge-alpine3.12:
+#   image: node:alpine3.12
+# #   cache:
+# #     paths:
+# #       - node_modules/
+#   script:
+#     - npm install
+#     # - npx jest --maxWorkers=1 --coverage --verbose --passWithNoTests --no-cache
+#     - npm run testCi
+#     - npx tsc
+
+
+# test:shared-windows:
+#   tags:
+#     - shared-windows
+#   cache:
+#     paths:
+#       - node_modules/
+#   script:
+#     - npm run showVersion
+#     - npm install
+#     - npx jest --maxWorkers=1
+
+# test:windows:
+#   tags:
+#     - windows
+# #   cache:
+# #     paths:
+# #       - node_modules/
+#   script:
+#     - choco install microsoft-build-tools python2 -y
+#     - refreshenv
+#     - npm install
+#     - npm run showVersion
+#     - npx jest --maxWorkers=1
+#     - npx tsc
+
+# test:windows-1809:
+#   tags:
+#     - windows-1809
+#   cache:
+#     paths:
+#       - node_modules/
+#   script:
+#     - npm run showVersion
+#     - npm install
+#     - npx jest --maxWorkers=1
