@@ -1,6 +1,6 @@
 {
 	"license": "ISC",
-	"name": "proclubs-api",
+	"name": "@REN-OMAR/omar",
 	"version": "0.0.17",
 	"esnext": "dist/index.js",
 	"types": "dist/index.d.ts",
@@ -8,20 +8,20 @@
 		"dist/**/*"
 	],
 	"main": "./dist/index.js",
-	"homepage": "https://gitlab.com/FirstTerraner/proclubs-api/-/blob/main/README.md",
+	"homepage": "none",
 	"description": "",
 	"repository": {
 		"type": "git",
-		"url": "https://gitlab.com/FirstTerraner/proclubs-api.git"
+		"url": "https://github.com/REN-OMAR/omar.git"
 	},
 	"contributors": [
 		{
-			"name": "BilligsterUser",
-			"email": "billigsteruser@protonmail.com",
-			"url": "https://gitlab.com/billigsterUser"
+			"name": "omar",
+			"email": "omar",
+			"url": "omar"
 		}
 	],
-	"author": "FirstTerraner <m.echerbebo@gmail.com> (https://gitlab.com/FirstTerraner)",
+	"author": "OMAR",
 	"scripts": {
 		"2": "ts-node src/index.ts",
 		"bb": "bash scripts/buildDeta.sh",
